@@ -1,0 +1,58 @@
+/*-------------------------------------------------------------------------- Header design */
+header {
+
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+/*-------------------------------------------------------------------------- Header design */
+
+
+/*-------------------------------------------------------------------------- Article design */
+article p{
+    background-color: grey;
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.btn btn-success{
+    color: grey:
+}
+/*-------------------------------------------------------------------------- Article design */
+
+
+/*-------------------------------------------------------------------------- Footer design */
+.col-sm-4{    /*--------------- social links */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}            /*--------------- social links */
+ 
+.corner{
+    position: relative;
+    top: 50px;
+    text-align: right;
+    
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+/*-------------------------------------------------------------------------- Footer design */
