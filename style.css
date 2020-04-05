@@ -1,4 +1,24 @@
-h1 {
+h1{
     background-color: #FBAED2;
     color: #000000;
+}
+
+.contact{
+    float: right;
+    background-color: #FBAED2;
+}
+
+.find{
+ 
+}
+
+.social{
+    width:200px; 
+    height:200px; 
+    position: fixed; 
+    top: 110%; 
+    left: 50%; 
+    margin-top: -100px; 
+    margin-left: -100px;
+    background-color: #FBAED2;
 }
