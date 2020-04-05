@@ -59,11 +59,11 @@
 			<p>Learn how to bake with us! It's easy and lots of fun. Memberships start at
 				£79.99 £9.99! So what are you waiting for? Join today!</p>  
 
-<!-- Sign Up Button -->
+<!-- SignUp Button -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
   Sign Up
 </button>
-<!-- Sign Up Button -->
+<!-- SignUp Button -->
 
 
 <!------------------------------------------------- Bootstrap: Modal ------------------------------------------------->    
@@ -104,32 +104,40 @@
  <!-- Modal Address -->
           <div class="form-group">
              <label for="Address">Address:</label>
-             <input type="address" class="form-control" id="Address" required>
-             <small id="addressHelp" class="form-text text-muted">We'll never share your address with anyone else.</small>
+             <input type="address" class="form-control" id="Address" aria-describedby="AddressHelp" required>
+             <small id="AddressHelp" class="form-text text-muted">We'll never share your address with anyone else.</small>
           </div>
 <!-- Modal Address -->
 <!-- Modal Email -->     
           <div class="form-group">
-             <label for="Email">Email address:</label>
-             <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" required>
-             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+             <label for="Email">Email:</label>
+             <input type="email" class="form-control" id="Email" aria-describedby="EmailHelp" required>
+             <small id="EmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
 <!-- Modal Email -->     
-
-
-
-
-
-
-
-
-
+<!-- Modal ConfirmEmail -->     
+          <div class="form-group">
+             <label for="ConfirmEmail">Confirm Email:</label>
+             <input type="email" class="form-control" id="ConfirmEmail" aria-describedby="ConfirmEmailHelp" required>
+             <small id="ConfirmEmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+<!-- Modal Email -->     
 <!-- Modal Password -->
           <div class="form-group">
              <label for="exampleInputPassword1">Password</label>
              <input type="password" class="form-control" id="exampleInputPassword1" required>
           </div>
 <!-- Modal Password -->
+
+
+
+
+
+
+
+
+
+
      </form>
 <!-- Modal Body -->
 
