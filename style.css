@@ -1,15 +1,19 @@
+/* ------------header------------ */
 h1{
     background-color: #FBAED2;
     color: #000000;
 }
+/* ------------header------------ */
 
+
+/* ------------footer------------ */
 .contact{
     float: right;
     background-color: #FBAED2;
 }
 
 .find{
- 
+ background-color: #FBAED2;
 }
 
 .social{
@@ -22,3 +26,4 @@ h1{
     margin-left: -100px;
     background-color: #FBAED2;
 }
+/* ------------footer------------ */
