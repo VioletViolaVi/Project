@@ -1,3 +1,4 @@
+
 /* ------------header------------ */
 h1{
     background-color: #FBAED2;
@@ -6,24 +7,62 @@ h1{
 /* ------------header------------ */
 
 
-/* ------------footer------------ */
-.contact{
-    float: right;
-    background-color: #FBAED2;
+
+
+/* ------------seciton------------ */
+#carousel{
+    width: 50%;
+    background-size:cover;
 }
 
-.find{
+p span{
+    text-decoration: line-through;
+}
+/* ------------seciton------------ */
+
+
+
+
+/* ------------footer------------ */
+
+
+footer{
+ height: 100px;
  background-color: #FBAED2;
+ column-count: 3;
+ column-gap: 40px;
+ column-rule-style: solid;
 }
 
-.social{
-    width:200px; 
-    height:200px; 
-    position: fixed; 
-    top: 110%; 
-    left: 50%; 
-    margin-top: -100px; 
-    margin-left: -100px;
-    background-color: #FBAED2;
+.map{
+  background-image: url("map.jpg");
+  display: inline-block;
+  position: relative;
+  margin-right: 50px;
 }
-/* ------------footer------------ */
+
+footer{
+ 
+
+}
+
+.socials{
+    text-align: center;
+    
+}
+
+.socials li{
+    display: inline;
+}
+
+.socials i{
+    font-size: 200%;
+    margin: 0.5%;
+    padding: 0.1%;
+    color: black;
+}
+
+.contact{
+    text-align: right;
+}
+/* ------------footer------------ */ 
