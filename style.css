@@ -1,6 +1,6 @@
 /* ------------header------------ */
 body{
-    background-color: greenyellow;
+    background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -109,8 +109,7 @@ footer img{
 }
 
 .socials{
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .socials li{
@@ -127,7 +126,7 @@ footer img{
 .contact{
     text-align: right;
     position: absolute; 
-    left: 1185px;
+    left: 1200px;
 }
 /* ------------footer------------ */ 
  
