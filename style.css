@@ -1,26 +1,55 @@
 
 /* ------------header------------ */
-h1{
-    background-color: #FBAED2;
-    color: #000000;
+header{
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
 }
-/* ------------header------------ */
 
+#tabs{
+    font-size: 110%;
+    list-style-type: none; 
+}
 
+#tabs li{
+    display: inline;  
+    margin-right: 30px;    
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+}
+/* ------------header------------ *
 
 
 /* ------------seciton------------ */
-#carousel{
+
+/* ------------carousel------------ */
+
+/* Delete later #carousel{
     width: 50%;
     background-size:cover;
+} */
+
+.carousel-item{
+    max-width:100%;
+    height:auto;
 }
+/* ------------carousel------------ */
 
 p span{
     text-decoration: line-through;
-}
+} 
 /* ------------seciton------------ */
-
-
 
 
 /* ------------footer------------ */
@@ -42,8 +71,7 @@ footer{
 }
 
 footer{
- 
-
+    background-color: greenyellow
 }
 
 .socials{
