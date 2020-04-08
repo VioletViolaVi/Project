@@ -123,7 +123,28 @@ p span{
 /* ------------testimonials text------------ */
 /* ------------testimonials images------------ */
 
+.man{
+    border-radius: 40px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 300px;
+    float: left;
+}
 
+.woman1{
+    border-radius: 40px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 300px;
+}
+
+.woman2{
+    border-radius: 40px;
+    height: 200px;
+    width: 300px;
+    margin-top: 300px;
+    float: right;   
+}
 
 /* ------------testimonials images------------ */
 /* ------------schedule image------------ */
