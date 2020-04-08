@@ -19,13 +19,13 @@
 		<nav>
 			<ul id="tabs">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html" target="_blank">Home</a>
 				</li>
 				<li>
-					<a href="testimonials.html">Testimonials</a>
+					<a href="testimonials.html" target="_blank">Testimonials</a>
 				</li>
 				<li>
-					<a class="active" href="schedule.html">Schedule</a>
+					<a class="active" href="schedule.html" target="_blank">Schedule</a>
 				</li>
 				<li>
 					<a class="active" href="about_us.html">About Us</a>
@@ -36,9 +36,10 @@
 
 	<section>
 
-		<img src="baker.jpg" class="d-block w-100 " alt="baker">
-		<h2>Our Founder</h2>
-		<p>
+		<img src="baker.jpg" class= "baker" alt="baker">
+
+		<h2 class="para1 head">Our Founder</h2>
+		<p class="para1">
 			BusyBakes was founded by Mrs. Annalise W. Keating in a little cottage located in the middle
 			of Hopestone Valley. Mrs Keating’s humble beginnings originate from her love of baking the
 			likes of scones and cupcakes, with her grandchildren on cold rainy days. She enjoyed
@@ -46,10 +47,10 @@
 			well. This blossomed into a deep passion for sharing her baking knowledge with others. So
 			she started her business by holding classes in her kitchen, teaching her neighbours and their
 			kids how to bake, before expanding it to a multi million pound business. Thus, BusyBakes was
-			born</p>
+			born.</p><br>
 
-		<h2>What makes us unique?</h2>
-		<p>
+		<h2 class="para2 head">What makes us unique?</h2>
+		<p class="para2">
 			We pride ourselves as a leading in-class baking company that continuously receives positive
 			feedback from our members and holds high customer retention. Not to mention our first
 			place prized position in the National Online Baking Awards; clearly outcompeting our
@@ -57,11 +58,10 @@
 			being able to teach a wide range of people regardless of level. From beginners to experts.
 			And are always rated first choice, by our beginner level members, who routinely express that
 			BusyBakes is the best to sign up with if one wishes to master a new skill.
-		</p>
+		</p><br>
 
-		<h2>Why choose us?
-		</h2>
-		<p>
+		<h2 class="para3 head">Why choose us?</h2>
+		<p class="para1">
 			We focus on providing an educational, fun and enriching experience for all our members. Our desire
 			to share our love for baking with others makes us stand out from the crowd. We don’t just offer a
 			class to teach you how to bake. It’s about more than baking. We build up a relationship with our
@@ -69,11 +69,10 @@
 			an inner passion that had always been buried deep down inside and provide them the permission to
 			explore it. We inspire. We empower. We accomplish.
 		</p>
-
 		<!-- Paragraph's SignUp Button -->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-           Sign Up
-       </button>
+		<div class="about_btn">
+			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">Sign Up</button>
+		</div>
 		<!-- Paragraph's SignUp Button -->
 
 		<!------------------------------------------------- Bootstrap: Modal ------------------------------------------------->
@@ -150,7 +149,7 @@
 						<!-- Modal Footer -->
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">Sign Up</button>
+						<button type="button" class="btn btn-danger">Sign Up</button>
 					</div>
 				</div>
 			</div>

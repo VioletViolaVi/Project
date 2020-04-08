@@ -19,73 +19,87 @@
 		<nav>
 			<ul id="tabs">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html" target="_blank">Home</a>
 				</li>
 				<li>
-					<a href="testimonials.html">Testimonials</a>
+					<a href="testimonials.html" target="_blank">Testimonials</a>
 				</li>
 				<li>
 					<a class="active" href="schedule.html">Schedule</a>
 				</li>
 				<li>
-					<a class="active" href="about_us.html">About Us</a>
+					<a class="active" href="about_us.html" target="_blank">About Us</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<section>
+		<div class="container">
 
-		<img src="baking.webp" class="d-block w-100 " alt="baking">
+			<img src="baking.webp" class="schedule_img" alt="baking">
 
-		<h2>Monday</h2>
-		<ul>Morning
-			<li>9am-10am</li>
-		</ul>
-		<ul>Afternoon
-			<li>2pm-3pm</li>
-		</ul>
-		<ul>Evening
-			<li>7pm-8pm</li>
-		</ul>
+			<div class="days">
 
-		<h2>Wednesday</h2>
-		<ul>Morning
-			<li>9am-10am</li>
-		</ul>
-		<ul>Afternoon
-			<li>2pm-3pm</li>
-		</ul>
-		<ul>Evening
-			<li>7pm-8pm</li>
-		</ul>
+				<div class="mon">
+					<h2>Monday</h2>
+					<ul>Morning
+						<li>9am-10am</li>
+					</ul>
+					<ul>Afternoon
+						<li>2pm-3pm</li>
+					</ul>
+					<ul>Evening
+						<li>7pm-8pm</li>
+					</ul>
+				</div>
 
-		<h2>Friday</h2>
-		<ul>Morning
-			<li>9am-10am</li>
-		</ul>
-		<ul>Afternoon
-			<li>2pm-3pm</li>
-		</ul>
-		<ul>Evening
-			<li>7pm-8pm</li>
-		</ul>
+				<div class="wednes">
+					<h2>Wednesday</h2>
+					<ul>Morning
+						<li>9am-10am</li>
+					</ul>
+					<ul>Afternoon
+						<li>2pm-3pm</li>
+					</ul>
+					<ul>Evening
+						<li>7pm-8pm</li>
+					</ul>
+				</div>
 
-		<h2>Sunday</h2>
-		<ul>Morning
-			<li>10am-11am</li>
-		</ul>
-		<ul>Afternoon
-			<li>3pm-4pm</li>
-		</ul>
-		<ul>Evening
-			<li>8pm-9pm</li>
-		</ul>
+				<div class="fri">
+					<h2>Friday</h2>
+					<ul>Morning
+						<li>9am-10am</li>
+					</ul>
+					<ul>Afternoon
+						<li>2pm-3pm</li>
+					</ul>
+					<ul>Evening
+						<li>7pm-8pm</li>
+					</ul>
+				</div>
 
+				<div class="sun">
+					<h2>Sunday</h2>
+					<ul>Morning
+						<li>10am-11am</li>
+					</ul>
+					<ul>Afternoon
+						<li>3pm-4pm</li>
+					</ul>
+					<ul>Evening
+						<li>8pm-9pm</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
 		<!-- Paragraph's SignUp Button -->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-           Sign Up
-       </button>
+		<div class="schedule_btn">
+			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">Sign Up</button>
+		</div>
 		<!-- Paragraph's SignUp Button -->
 
 		<!------------------------------------------------- Bootstrap: Modal ------------------------------------------------->
@@ -162,7 +176,7 @@
 						<!-- Modal Footer -->
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">Sign Up</button>
+						<button type="button" class="btn btn-danger">Sign Up</button>
 					</div>
 				</div>
 			</div>
