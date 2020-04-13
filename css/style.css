@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #f7e6e6;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,28 +17,6 @@ header{
     color: pink;
 }
 
-/* #tabs{
-    font-size: 110%;
-    list-style-type: none; 
-}
-
-#tabs li{
-    display: inline;  
-    margin-right: 30px;    
-}
-
-a{
-    color: black;
-}
-
-a:hover{
-    color: red;
-    text-decoration: none;
-}
-
-a:active {
-    color: purple;
-} */
 /* ------------header------------ *
 /* ------------footer------------ */
 
@@ -124,14 +104,14 @@ p span{
 /* ------------homepage text------------ */
 /* ------------testimonials text------------ */
 
-.testimonials_columns p{
-    margin: 50px 50px 10 50px;
-    padding: 50px;
-}
-
 .testimonials_columns{
     column-count: 3;
     text-align: center;
+}
+
+.testimonials_columns p{
+    margin: 50px 50px 10 50px;
+    padding: 50px;
 }
 
 .testimonials_signup{
@@ -145,18 +125,21 @@ p span{
     border-radius: 40px;
     height: 200px;
     width: 300px;   
+    box-shadow: 10px 10px 10px #ccc;
 }
 
 .woman1{
     border-radius: 40px;
     height: 200px;
     width: 300px;
+    box-shadow: 10px 10px 10px #ccc;
 }
 
 .woman2{
     border-radius: 40px;
     height: 200px;
     width: 300px;
+    box-shadow: 10px 10px 10px #ccc;
 }
 
 /* ------------testimonials images------------ */
@@ -178,15 +161,6 @@ p span{
     position: relative;
     text-align: center;
     color: black;
-}
-
-.days li{
-    list-style-type: none;
-}
-
-.days ul{
-    text-align: center;
-    margin-right: 40px;
 }
 
 .mon{
@@ -235,6 +209,15 @@ p span{
     border-radius: 50px;
     border-style: solid;
     border-color: rgb(219, 0, 37);
+}
+
+.days ul{
+    text-align: center;
+    margin-right: 40px;
+}
+
+.days li{
+    list-style-type: none;
 }
 
 .schedule_btn{
@@ -307,3 +290,31 @@ button.btn:focus {
    border-color: rgb(219, 0, 37);
 }
 /* ------------signup form------------ */
+
+
+/*----------------------- Removed Drafts-----------------------*/
+/* 
+#tabs{
+    font-size: 110%;
+    list-style-type: none; 
+}
+
+#tabs li{
+    display: inline;  
+    margin-right: 30px;    
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+} 
+*/
+/*----------------------- Removed Drafts-----------------------*/
