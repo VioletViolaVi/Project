@@ -27,15 +27,14 @@ footer{
     column-count: 3;
     column-gap: 300px;
     column-rule-style: solid;
-    position: fixed; 
     top: 565px;
 }
 
 footer img{
- width: 130px;
- position: absolute; 
- top: 3px;
- right: 960px;
+    width: 50%;
+    float: left;
+    top: 3px;
+    right: 10px;
 }
 
 .socials{
@@ -61,40 +60,45 @@ footer img{
 /* ------------footer------------ */ 
 /* ------------signup form------------ */
 
+#exampleModalLongTitle{
+    color: black;
+}
+
 button.btn {
-    color:black;
-    background-color: pink;
-    border-color: rgb(223, 117, 134);
+    color:white;
+    background-color: lightblue;
+    border-color: blue;
 }
 
 button.btn:hover {
-   color: black;
-   background-color: rgb(250, 85, 85);
-   border-color: rgb(219, 0, 37);
+   color: white;
+   background-color: blue;
+   border-color: lightblue;
+   border-width: 10%;
 }
 
 button.btn:active {
-   color: black;
-   background-color: rgb(250, 85, 85);
-   border-color: rgb(219, 0, 37);
+   color: white;
+   background-color: blue;
+   border-color: lightblue;
 }
 
 button.btn:focus {
    color: black;
-   background-color: rgb(250, 85, 85);
-   border-color: rgb(219, 0, 37);
+   background-color: blue;
+   border-color: lightblue;
 }
 
 input[type="text"]{
-   border-color: rgb(219, 0, 37);
+   border-color: blue;
 } 
 
 input[type="email"]{
-   border-color: rgb(219, 0, 37);
+   border-color: blue;
 } 
 
 input[type="password"]{
-   border-color: rgb(219, 0, 37);
+   border-color: blue;
 } 
 
 /* ------------signup form------------ */
@@ -187,12 +191,12 @@ p span{
 /* ------------schedule image------------ */
 
 .schedule_img{
-    height: 440px;
-    margin-bottom: 50px;
+    height: 20%;
+    margin-bottom: 20%;
     width: 100%;
     border-style: solid;
-    border-width: 20px;
-    border-color: rgb(219, 0, 37);
+    border-width: 10%;
+    border-color: blue;
 }
 
 /* ------------schedule image------------ */
@@ -201,7 +205,7 @@ p span{
 .container{
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .mon{
@@ -210,10 +214,10 @@ p span{
     left: 100px;
     width: 200px;
     margin: 20px 50px 100px 10px;
-    background-color:pink;
+    background-color:lightblue;
     border-radius: 50px;
     border-style: solid;
-    border-color: rgb(219, 0, 37);
+    border-color: blue;
 }
 
 .wednes{
@@ -222,10 +226,10 @@ p span{
     left: 290px;
     width: 200px;
     margin: 20px 50px 100px 60px;
-    background-color:pink;
+    background-color: lightblue;
     border-radius: 30px;
     border-style: solid;
-    border-color: rgb(219, 0, 37);
+    border-color: blue;
 }
 
 .fri{
@@ -234,10 +238,10 @@ p span{
     right: 300px;
     width: 200px;
     margin: 20px 50px 100px 60px;
-    background-color:pink;
+    background-color: lightblue;
     border-radius: 50px;
     border-style: solid;
-    border-color: rgb(219, 0, 37);
+    border-color: blue;
 }
 
 .sun{
@@ -246,10 +250,10 @@ p span{
     right: 100px;
     width: 200px;
     margin: 20px 10px 100px 60px;
-    background-color:pink;
+    background-color:lightblue;
     border-radius: 50px;
     border-style: solid;
-    border-color: rgb(219, 0, 37);
+    border-color: blue;
 }
 
 .days ul{
