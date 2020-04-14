@@ -1,32 +1,33 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f7e6e6;
+    background-color: rgb(18, 73, 92);
     font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    color: white;
 }
 
 /* ------------header------------ */
 
 header{
     text-align: center;
-    color: black;
 }
 
 .navbar-collapse li{
-    text-align: left;
-    color: pink;
+    text-align: center;
 }
 
 /* ------------header------------ *
 /* ------------footer------------ */
 
 footer{
- height: 100px;
- column-count: 3;
- column-gap: 300px;
- column-rule-style: solid;
- position: fixed; 
- top: 565px;
+    background-color: ;
+    height: 100px;
+    column-count: 3;
+    column-gap: 300px;
+    column-rule-style: solid;
+    position: fixed; 
+    top: 565px;
 }
 
 footer img{
@@ -48,7 +49,7 @@ footer img{
     font-size: 200%;
     margin: 0.5%;
     padding: 0.1%;
-    color: black;
+    color: white;
 }
 
 .contact{
@@ -306,6 +307,18 @@ p span{
 
 /*----------------------- Removed Drafts-----------------------*/
 /* 
+.cartoon{
+    width: 20%;
+    height: 40%;
+    float: left;
+}
+
+a{
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 10%;
+    height: 30%;
+} 
 
 input[type="text"]:hover{
     border-color: rgb(250, 85, 85);
