@@ -11,6 +11,7 @@ body{
 
 header{
     text-align: center;
+    background-color: rgb(138, 203, 224);
 }
 
 .navbar-collapse li{
@@ -21,7 +22,7 @@ header{
 /* ------------footer------------ */
 
 footer{
-    background-color: ;
+    background-color: rgb(138, 203, 224);
     height: 100px;
     column-count: 3;
     column-gap: 300px;
