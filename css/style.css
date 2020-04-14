@@ -57,6 +57,45 @@ footer img{
     left: 1200px;
 }
 /* ------------footer------------ */ 
+/* ------------signup form------------ */
+
+button.btn {
+    color:black;
+    background-color: pink;
+    border-color: rgb(223, 117, 134);
+}
+
+button.btn:hover {
+   color: black;
+   background-color: rgb(250, 85, 85);
+   border-color: rgb(219, 0, 37);
+}
+
+button.btn:active {
+   color: black;
+   background-color: rgb(250, 85, 85);
+   border-color: rgb(219, 0, 37);
+}
+
+button.btn:focus {
+   color: black;
+   background-color: rgb(250, 85, 85);
+   border-color: rgb(219, 0, 37);
+}
+
+input[type="text"]{
+   border-color: rgb(219, 0, 37);
+} 
+
+input[type="email"]{
+   border-color: rgb(219, 0, 37);
+} 
+
+input[type="password"]{
+   border-color: rgb(219, 0, 37);
+} 
+
+/* ------------signup form------------ */
  /* ------------homepage image------------ */
 
 .carousel-item {
@@ -264,36 +303,22 @@ p span{
     margin-left: 840px;
 }
 /* ------------about us text------------ */
-/* ------------signup form------------ */
-
-button.btn {
-    color:black;
-    background-color: pink;
-    border-color: rgb(223, 117, 134);
-}
-
-button.btn:hover {
-   color: black;
-   background-color: rgb(250, 85, 85);
-   border-color: rgb(219, 0, 37);
-}
-
-button.btn:active {
-   color: black;
-   background-color: rgb(250, 85, 85);
-   border-color: rgb(219, 0, 37);
-}
-
-button.btn:focus {
-   color: black;
-   background-color: rgb(250, 85, 85);
-   border-color: rgb(219, 0, 37);
-}
-/* ------------signup form------------ */
-
 
 /*----------------------- Removed Drafts-----------------------*/
 /* 
+
+input[type="text"]:hover{
+    border-color: rgb(250, 85, 85);
+} 
+
+input[type="text"]:active{
+    border-color: rgb(250, 85, 85);
+} 
+
+input[type="text"]:focus{
+    border-color: rgb(250, 85, 85);
+} 
+
 #tabs{
     font-size: 110%;
     list-style-type: none; 
