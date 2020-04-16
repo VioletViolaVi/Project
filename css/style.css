@@ -1,16 +1,14 @@
 body{
-    margin: 0;
-    padding: 0;
     background-color: rgb(18, 73, 92);
     font-family: Arial, Helvetica, sans-serif;
-    overflow: auto;
     color: white;
-    position: fixed;
+    height: 100%;
 }
 
 /* ------------header------------ */
 
 header{
+    width: 100%; 
     text-align: center;
     background-color: rgb(138, 203, 224);
 }
@@ -23,40 +21,39 @@ header{
 /* ------------footer------------ */
 
 footer{
-    background-color: rgb(138, 203, 224);
-    height: 5%;
+    height: 100px;
     column-count: 3;
-    column-gap: 300px;
+    column-gap: 395px;
     column-rule-style: solid;
     top: 565px;
+    position: fixed;
+    margin-left: 0px;
+}
+
+/* ------------footer text------------ */
+
+.find_us li{
+    list-style-type: none; 
 }
 
 .icons i{
     font-size: 200%;
     margin: 0.5%;
-    padding: 0.1%;
     color: white;
 }
-
-.contact{
-    text-align: right;
-
-}
-
-/* ------------footer text------------ */
 
 .icons li{
     display: inline;
     text-align: center; 
 }
 
+.contact{
+    text-align: right;
+
+}
 .contact li{
     list-style-type: none;  
 }  
-
-.find_us li{
-    list-style-type: none; 
-}
 
 /* ------------footer text------------ */
 /* ------------footer------------ */ 
@@ -66,29 +63,8 @@ footer{
     color: black;
 }
 
-button.btn {
-    color:white;
-    background-color: lightblue;
-    border-color: blue;
-}
-
-button.btn:hover {
-   color: white;
-   background-color: blue;
-   border-color: lightblue;
-   border-width: 10%;
-}
-
-button.btn:active {
-   color: white;
-   background-color: blue;
-   border-color: lightblue;
-}
-
-button.btn:focus {
-   color: black;
-   background-color: blue;
-   border-color: lightblue;
+.form-group label{
+    color: black
 }
 
 input[type="text"]{
@@ -107,9 +83,8 @@ input[type="password"]{
  /* ------------homepage image------------ */
 
 .carousel-item {
-    width: 650px;
-    position: fixed;
-    left: 350px;
+    width: 100%;
+    height: 600px;
 }
 
 /* ------------homepage image------------ */
@@ -121,7 +96,7 @@ input[type="password"]{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
   font-size: larger;
   font-weight: bold;
 }
@@ -137,16 +112,6 @@ input[type="password"]{
 p span{
     text-decoration: line-through;
 } 
-
-.hero-text button {
-    color:black;
-    background-color: greenyellow;
-}
-
-.hero-text button:hover {
-    background-color: black;
-    color: greenyellow;
-}
 
 /* ------------homepage text------------ */
 /* ------------testimonials text------------ */
@@ -312,6 +277,9 @@ p span{
 }
 /* ------------about us text------------ */
 
+
+
+
 /*----------------------- Removed Drafts-----------------------*/
 /* 
 
@@ -370,5 +338,40 @@ a:hover{
 a:active {
     color: purple;
 } 
+
+
+.hero-text button {
+
+}
+
+.hero-text button:hover {
+
+}
+
+button.btn {
+    color:white;
+    background-color: lightblue;
+    border-color: blue;
+}
+
+button.btn:hover {
+   color: white;
+   background-color: blue;
+   border-color: lightblue;
+   border-width: 10%;
+}
+
+button.btn:active {
+   color: white;
+   background-color: blue;
+   border-color: lightblue;
+}
+
+button.btn:focus {
+   color: white;
+   background-color: blue;
+   border-color: lightblue;
+}
+
 */
 /*----------------------- Removed Drafts-----------------------*/

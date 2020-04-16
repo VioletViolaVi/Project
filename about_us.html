@@ -15,19 +15,19 @@
 <body>
 
 	<header>
-		<h1>BusyBakes</h1> <br>
 <!------------------------------------------------- Bootstrap's Navbar ------------------------------------------------->
 		<nav class="navbar navbar-expand-lg navbar-light bg-info">
-			<a class="navbar-brand" href="index.html"></a>
+			<a class="navbar-brand text-white" href="index.html">BusyBakes</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
-             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+             aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
             </button>
-<!------------------------------ Navbar Content ------------------------------>
-<!------------------------------Collapsed for Mobile ------------------------------>
+
+<!------------------------------------------------- Navbar Content & Collapsed for Mobile ------------------------------------------------->
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav justify-content-center">
 					<li class="nav-item active">
-						<a class="nav-link text-white" href="index.html" target="_blank">Home<span class="sr-only">(current)</span></a>
+						<a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-white" href="testimonials.html" target="_blank">Testimonials</a>
@@ -36,13 +36,13 @@
 						<a class="nav-link text-white" href="schedule.html" target="_blank">Schedule</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="about_us.html" >About Us</a>
+						<a class="nav-link text-white" href="about_us.html" target="_blank">About Us</a>
 					</li>
 				</ul>
             </div>
         </nav>
-<!------------------------------Collapsed for Mobile ------------------------------>        
-<!------------------------------ Navbar Content ------------------------------>		
+<!------------------------------------------------- Navbar Content & Collapsed for Mobile ------------------------------------------------->	
+
 <!------------------------------------------------- Bootstrap's Navbar ------------------------------------------------->
 	</header>
 
@@ -82,9 +82,11 @@
 			explore it. We inspire. We empower. We accomplish.
 		</p>
 		<!-- Paragraph's SignUp Button -->
-		<div class="about_btn">
-			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">Sign Up</button>
-		</div>
+			<div class="about_btn">
+              <button type="button" class="btn btn-info"  
+                 data-toggle="modal" data-target="#exampleModalLong">Sign Up
+              </button>
+            </div>
 		<!-- Paragraph's SignUp Button -->
 
 <!------------------------------------------------- Bootstrap: Modal ------------------------------------------------->
@@ -113,13 +115,7 @@
 								<label for="Lname">Last Name:</label>
 								<input type="text" class="form-control" id="Lname" placeholder="Last name" required>
                             </div>
-<!------------------------------------------------- Modal LastName ------------------------------------------------->
-<!------------------------------------------------- Modal UserName ------------------------------------------------->
-							<div class="form-group">
-								<label for="Username">Username:</label>
-								<input type="text" class="form-control" id="Username" placeholder="Username" required>
-                            </div>
-<!------------------------------------------------- Modal UserName ------------------------------------------------->                            
+<!------------------------------------------------- Modal LastName ------------------------------------------------->                            
 <!------------------------------------------------- Modal Address ------------------------------------------------->
 							<div class="form-group">
 								<label for="Address">Address:</label>
@@ -129,36 +125,23 @@
 <!------------------------------------------------- Modal Address ------------------------------------------------->                            
 <!------------------------------------------------- Modal Email ------------------------------------------------->
 							<div class="form-group">
-								<label for="Email">Email:</label>
-								<input type="email" class="form-control" id="Email" aria-describedby="EmailHelp" placeholder="Email" required>
-								<small id="EmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								    <label for="exampleInputEmail1">Email: </label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 							</div>
-<!------------------------------------------------- Modal Email ------------------------------------------------->                            
-<!------------------------------------------------- Modal ConfirmEmail ------------------------------------------------->
-							<div class="form-group">
-								<label for="ConfirmEmail">Confirm Email:</label>
-								<input type="email" class="form-control" id="ConfirmEmail" aria-describedby="ConfirmEmailHelp" placeholder="Confirm Email" required>
-								<small id="ConfirmEmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-<!------------------------------------------------- Modal ConfirmEmail ------------------------------------------------->                            
+<!------------------------------------------------- Modal Email ------------------------------------------------->                                                     
 <!------------------------------------------------- Modal Password ------------------------------------------------->
 							<div class="form-group">
-								<label for="Password">Password:</label>
-								<input type="password" class="form-control" id="Password" placeholder="Password" required>
+                                <label for="exampleInputPassword1">Password: </label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
                             </div>
-<!------------------------------------------------- Modal Password ------------------------------------------------->                            
-<!------------------------------------------------- Modal ConfirmPassword ------------------------------------------------->
-							<div class="form-group">
-								<label for="ConfirmPassword">ConfirmPassword:</label>
-								<input type="password" class="form-control" id="ConfirmPassword"  placeholder="Confirm Password" required>
-                            </div>
-<!------------------------------------------------- Modal ConfirmPassword ------------------------------------------------->                            
+<!------------------------------------------------- Modal Password ------------------------------------------------->                                                     
 						</form>
 <!------------------------------------------------- Modal Body ------------------------------------------------->                        
 <!------------------------------------------------- Modal Footer ------------------------------------------------->
 					</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-danger">Sign Up</button>
+							<button type="submit" class="btn btn-primary">Submit</button>
 						</div>
 				</div>
 			</div>
@@ -168,25 +151,34 @@
 	
     </section>
 
-	<footer>
-		<p class="location"><b>Find Us:</b><br>
-          17 Filters Street <br>Hopestone Valley <br>E43 4GH <img src="map.jpg" alt="map"></p>
+	<footer class="bg-info">
+        <div class="find_us">
+          <ul>
+            <li><b>Find Us:</b></li>
+            <li>17 Filters Street</li>
+            <li>Hopestone Valley</li>
+            <li>E43 4GH</li>
+          </ul>
+        </div>
 <!------------------------------------------------- Font Awesome: Social icons & Copyright ------------------------------------------------->
-		<div class="socials">
+		<div class="icons">
 		   <ul>
 			  <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
 			  <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 			  <li><a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
 			  <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-			  <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-			  <br><br><span>Copyright © 2020 BusyBakes</span>
+			  <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li><br> 
+			  <li>Copyright © 2020 BusyBakes</li>
 			</ul>
 		</div>
 <!------------------------------------------------- Font Awesome: Social icons & Copyright------------------------------------------------->
-		<div class="contact">
-			<p><b>Contact Us:</b><br>
-			<br>+555 9463 6837<br>busybakes@tmail.com</p>
-		</div>
+        <div class="contact">
+          <ul>
+            <li><b>Contact Us:</b></li>
+            <li>+555 9463 6837</li>
+            <li>busybakes@tmail.com</li>
+          </ul>
+        </div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

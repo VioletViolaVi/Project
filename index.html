@@ -13,16 +13,17 @@
 </head>
 
 <body>
+
 	<header>
-		<h1>BusyBakes</h1> <br>
 <!------------------------------------------------- Bootstrap's Navbar ------------------------------------------------->
 		<nav class="navbar navbar-expand-lg navbar-light bg-info">
-			<a class="navbar-brand" href="index.html"></a>
+			<a class="navbar-brand text-white" href="index.html">BusyBakes</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
-             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+             aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
             </button>
-<!------------------------------ Navbar Content ------------------------------>
-<!------------------------------Collapsed for Mobile ------------------------------>
+
+<!------------------------------------------------- Navbar Content & Collapsed for Mobile ------------------------------------------------->
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav justify-content-center">
 					<li class="nav-item active">
@@ -40,44 +41,48 @@
 				</ul>
             </div>
         </nav>
-<!------------------------------Collapsed for Mobile ------------------------------>        
-<!------------------------------ Navbar Content ------------------------------>		
+<!------------------------------------------------- Navbar Content & Collapsed for Mobile ------------------------------------------------->	
+
 <!------------------------------------------------- Bootstrap's Navbar ------------------------------------------------->
 	</header>
 
 	<section>
-		<!------------------------------------------------- Bootstrap: Picture Slideshow ------------------------------------------------->
+<!------------------------------------------------- Bootstrap: Picture Slideshow ------------------------------------------------->
 		<div id="carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="cake.jpg" class="d-block w-100 " alt="cake">
-                 </div>
-					<div class="carousel-item">
-						<img src="bread.jpg" class="d-block w-100" alt="bread">
-                     </div>
-						<div class="carousel-item">
-							<img src="buns.jpg" class="d-block w-100" alt="buns">
-                         </div>
-							<div class="carousel-item">
-								<img src="cupcakes.gif" class="d-block w-100" alt="cupcakes">
-                             </div>
-								<div class="carousel-item">
-									<img src="biscuits.jpg" class="d-block w-100" alt="biscuits">
-                                 </div>
-								</div>
-							</div>
-							<!------------------------------------------------- Bootstrap: Picture Slideshow ------------------------------------------------->
-							<div class="hero-text">
-								<h2>Let's get busy baking!</h2>
-								<p>Learn how to bake with us! It's easy and lots of fun. Memberships start at
-									<span>£79.99</span> <em>£9.99!</em> <br> So what are you waiting for? Join today!</p>
+                </div>
+				<div class="carousel-item">
+					<img src="bread.jpg" class="d-block w-100" alt="bread">
+                </div>
+				<div class="carousel-item">
+					<img src="buns.jpg" class="d-block w-100" alt="buns">
+                </div>
+				<div class="carousel-item">
+					<img src="cupcakes.gif" class="d-block w-100" alt="cupcakes">
+                </div>
+				<div class="carousel-item">
+					<img src="biscuits.jpg" class="d-block w-100" alt="biscuits">
+                </div>
+			</div>
+		</div>
+<!------------------------------------------------- Bootstrap: Picture Slideshow ------------------------------------------------->
 
-									<!-- Paragraph's SignUp Button -->
-									<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
-           Sign Up
-       </button>
-									<!-- Paragraph's SignUp Button -->
-							</div>
+<!------------------------------------------------- Info on image ------------------------------------------------->
+		<div class="hero-text">
+			<h2>Let's get busy baking!</h2>
+			<p>Learn how to bake with us! It's easy and lots of fun. Memberships start at
+			   <span>£79.99</span> <em>£9.99!</em> <br> So what are you waiting for? Join today!
+            </p>
+<!------------------------------------------------- Info on image ------------------------------------------------->
+
+<!-------------------------------------------------Paragraph's SignUp Button ------------------------------------------------->
+			<button type="button" class="btn btn-info"  
+               data-toggle="modal" data-target="#exampleModalLong">Sign Up
+            </button>
+<!-------------------------------------------------Paragraph's SignUp Button ------------------------------------------------->
+		</div>
 
 <!------------------------------------------------- Bootstrap: Modal ------------------------------------------------->
 <!------------------------------------------------- Modal Header ------------------------------------------------->
@@ -105,13 +110,7 @@
 								<label for="Lname">Last Name:</label>
 								<input type="text" class="form-control" id="Lname" placeholder="Last name" required>
                             </div>
-<!------------------------------------------------- Modal LastName ------------------------------------------------->
-<!------------------------------------------------- Modal UserName ------------------------------------------------->
-							<div class="form-group">
-								<label for="Username">Username:</label>
-								<input type="text" class="form-control" id="Username" placeholder="Username" required>
-                            </div>
-<!------------------------------------------------- Modal UserName ------------------------------------------------->                            
+<!------------------------------------------------- Modal LastName ------------------------------------------------->                            
 <!------------------------------------------------- Modal Address ------------------------------------------------->
 							<div class="form-group">
 								<label for="Address">Address:</label>
@@ -121,36 +120,23 @@
 <!------------------------------------------------- Modal Address ------------------------------------------------->                            
 <!------------------------------------------------- Modal Email ------------------------------------------------->
 							<div class="form-group">
-								<label for="Email">Email:</label>
-								<input type="email" class="form-control" id="Email" aria-describedby="EmailHelp" placeholder="Email" required>
-								<small id="EmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								    <label for="exampleInputEmail1">Email: </label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 							</div>
-<!------------------------------------------------- Modal Email ------------------------------------------------->                            
-<!------------------------------------------------- Modal ConfirmEmail ------------------------------------------------->
-							<div class="form-group">
-								<label for="ConfirmEmail">Confirm Email:</label>
-								<input type="email" class="form-control" id="ConfirmEmail" aria-describedby="ConfirmEmailHelp" placeholder="Confirm Email" required>
-								<small id="ConfirmEmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-<!------------------------------------------------- Modal ConfirmEmail ------------------------------------------------->                            
+<!------------------------------------------------- Modal Email ------------------------------------------------->                                                     
 <!------------------------------------------------- Modal Password ------------------------------------------------->
 							<div class="form-group">
-								<label for="Password">Password:</label>
-								<input type="password" class="form-control" id="Password" placeholder="Password" required>
+                                <label for="exampleInputPassword1">Password: </label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
                             </div>
-<!------------------------------------------------- Modal Password ------------------------------------------------->                            
-<!------------------------------------------------- Modal ConfirmPassword ------------------------------------------------->
-							<div class="form-group">
-								<label for="ConfirmPassword">ConfirmPassword:</label>
-								<input type="password" class="form-control" id="ConfirmPassword"  placeholder="Confirm Password" required>
-                            </div>
-<!------------------------------------------------- Modal ConfirmPassword ------------------------------------------------->                            
+<!------------------------------------------------- Modal Password ------------------------------------------------->                                                     
 						</form>
 <!------------------------------------------------- Modal Body ------------------------------------------------->                        
 <!------------------------------------------------- Modal Footer ------------------------------------------------->
 					</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-danger">Sign Up</button>
+							<button type="submit" class="btn btn-primary">Submit</button>
 						</div>
 				</div>
 			</div>
@@ -159,7 +145,7 @@
 <!------------------------------------------------- Bootstrap: Modal ------------------------------------------------->
     </section>
 
-	<footer>
+	<footer class="bg-info">
         <div class="find_us">
           <ul>
             <li><b>Find Us:</b></li>
@@ -176,7 +162,7 @@
 			  <li><a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
 			  <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
 			  <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li><br> 
-			  <li><span>Copyright © 2020 BusyBakes</span></li>
+			  <li>Copyright © 2020 BusyBakes</li>
 			</ul>
 		</div>
 <!------------------------------------------------- Font Awesome: Social icons & Copyright------------------------------------------------->
@@ -188,7 +174,6 @@
           </ul>
         </div>
 	</footer>
-
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -203,9 +188,13 @@
 </html>
 
 
+
+
+
 <!------------------------------------------------- Removed Drafts------------------------------------------------->
 <!------------------------------------------------- My Navbar ------------------------------------------------->
-<!--  
+    
+<!--
 <nav>
   <ul id="tabs">
     <li>
@@ -238,4 +227,30 @@
         <!--  
         <img src="map.jpg" alt="map">
         -->
+
+<!------------------------------------------------- Modal ConfirmPassword ------------------------------------------------->
+							<!-- 
+                            <div class="form-group">
+								<label for="ConfirmPassword">ConfirmPassword:</label>
+								<input type="password" class="form-control" id="ConfirmPassword"  placeholder="Confirm Password" required>
+                            </div>
+                            -->
+<!------------------------------------------------- Modal ConfirmPassword -------------------------------------------------> 
+<!------------------------------------------------- Modal ConfirmEmail ------------------------------------------------->
+							<!--
+                            <div class="form-group">
+								<label for="ConfirmEmail">Confirm Email:</label>
+								<input type="email" class="form-control" id="ConfirmEmail" aria-describedby="ConfirmEmailHelp" placeholder="Confirm Email" required>
+								<small id="ConfirmEmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							</div>
+                            -->
+<!------------------------------------------------- Modal ConfirmEmail ------------------------------------------------->   
+<!------------------------------------------------- Modal UserName ------------------------------------------------->
+							<!--
+                            <div class="form-group">
+								<label for="Username">Username:</label>
+								<input type="text" class="form-control" id="Username" placeholder="Username" required>
+                            </div>
+                            -->
+<!------------------------------------------------- Modal UserName ------------------------------------------------->
 <!------------------------------------------------- Removed Drafts------------------------------------------------->
