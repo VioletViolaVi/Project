@@ -3,8 +3,9 @@ body{
     padding: 0;
     background-color: rgb(18, 73, 92);
     font-family: Arial, Helvetica, sans-serif;
-    overflow: scroll;
+    overflow: auto;
     color: white;
+    position: fixed;
 }
 
 /* ------------header------------ */
@@ -23,29 +24,14 @@ header{
 
 footer{
     background-color: rgb(138, 203, 224);
-    height: 100px;
+    height: 5%;
     column-count: 3;
     column-gap: 300px;
     column-rule-style: solid;
     top: 565px;
 }
 
-footer img{
-    width: 50%;
-    float: left;
-    top: 3px;
-    right: 10px;
-}
-
-.socials{
-    text-align: center;    
-}
-
-.socials li{
-    display: inline;
-}
-
-.socials i{
+.icons i{
     font-size: 200%;
     margin: 0.5%;
     padding: 0.1%;
@@ -54,9 +40,25 @@ footer img{
 
 .contact{
     text-align: right;
-    position: absolute; 
-    left: 1200px;
+
 }
+
+/* ------------footer text------------ */
+
+.icons li{
+    display: inline;
+    text-align: center; 
+}
+
+.contact li{
+    list-style-type: none;  
+}  
+
+.find_us li{
+    list-style-type: none; 
+}
+
+/* ------------footer text------------ */
 /* ------------footer------------ */ 
 /* ------------signup form------------ */
 
@@ -312,6 +314,15 @@ p span{
 
 /*----------------------- Removed Drafts-----------------------*/
 /* 
+
+footer img{
+    width: 50%;
+    float: right;
+}
+
+    top: 3px;
+    right: 10px;
+
 .cartoon{
     width: 20%;
     height: 40%;
